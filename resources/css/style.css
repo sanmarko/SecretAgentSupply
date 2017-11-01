@@ -70,7 +70,6 @@ h5 {
 .banner {
   display: flex;
   justify-content: center;
-
   align-items: center;
   flex-direction: column;
   height: 25rem;
@@ -230,6 +229,7 @@ nav a {
 
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 4rem;
 }
 
   .location {
@@ -253,4 +253,36 @@ nav a {
       padding-left: 2rem;
 
       background-color: black;
+    }
+
+    /* Footer */
+
+    .base {
+      height: 5rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      background-color: black;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+
+    .dist {
+      display: flex;
+      width: 960px;
+      height: auto;
+      align-items: center;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .dist h3 {
+      display: flex;
+      color: white;
+      width: 960px;
+      height: auto;
+      padding: 2rem 0;
+      font-size: 1rem;
+      text-align: left;
     }
