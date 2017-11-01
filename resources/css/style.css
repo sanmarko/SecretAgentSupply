@@ -54,6 +54,49 @@ h5 {
   color: white;
 }
 
+@media only screen (max-width: 1024px) {
+  .box {
+    display: flex;
+    width: 47%;
+    height: auto;
+    border: 4px solid black;
+    margin: 3rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+  .product.glasses {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .products,
+  .business-info {
+    flex-wrap: wrap;
+  }
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+  .product.watch {
+    display: none;
+  }
+  .info {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+}
+
+
+
 /*Main body*/
 
 .main {
