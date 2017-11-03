@@ -1,7 +1,5 @@
 html {
-
   font-size: 18px;
-
   }
 
 
@@ -10,17 +8,16 @@ html {
    height: auto;
    margin: 0px;
  }
+
 /*Header style*/
 
 .header {
-
   width: 100%;
   height: 2.32rem;
   background-color: black;
   align-items: center;
   display: inline-flex;
   justify-content: center;
-
 }
 
 .site {
@@ -30,7 +27,6 @@ html {
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
-
 }
 
 
@@ -41,7 +37,6 @@ html {
   hight: 1.5rem;
   width: 2.2rem;
   margin: 0.41rem 1rem 0.41rem 0.5rem;
-
 }
 
 h5 {
@@ -88,7 +83,6 @@ h5 {
   display: flex;
   justify-content: flex-start;
   /*align-items: center;*/
-
 }
 
 .arrival {
@@ -100,7 +94,6 @@ h5 {
   width: 25rem;
   background-color: black;
   margin-top: 1.5rem; /* 1.5 + 7.5 because of the center alignment*/
-
 }
 
 .arrival h6 {
@@ -127,8 +120,6 @@ h5 {
     }
 
 
-
-
 /* Header navigation for spam items */
 
 .navigation {
@@ -138,11 +129,9 @@ h5 {
   height: 2.5rem;
   width: 100%;
   background-color: firebrick;
-
 }
 
 nav {
-
   width: 960px;
 }
 
@@ -154,7 +143,6 @@ nav {
 
 #menunav {
   display: none;
-
 }
 
 nav a {
@@ -185,35 +173,11 @@ nav a {
 }
 
 
-/*nav span {
-  display: inline-flex;
-  justify-content: space-between;
-  /*width: 150px;
-  text-align: justify;
-
-}*/
-
-
-
-
-
-
-/*Product container*/
-/*.product {
-    height: auto;
-    width: 960px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-  }
-
 /* Product images style */
 .product-img {
     height: auto;
     width: 960px;
     display: inline-flex;
-
     justify-content: space-between;
     align-items: center;
   }
@@ -239,7 +203,6 @@ nav a {
     height: 9rem;
     margin: 2rem 0;
     display: flex;
-
   }
 
   .box1 h6,
@@ -249,7 +212,6 @@ nav a {
     color: white;
     justify-content: center;
     align-items: center;
-
     padding: 0.5rem 0;
     background-color: black;
     height: 2rem;
@@ -306,7 +268,6 @@ nav a {
   height: auto;
   width: 960px;
   display: inline-flex;
-
   justify-content: space-between;
   align-items: center;
   margin-bottom: 4rem;
@@ -317,7 +278,6 @@ nav a {
     width: 35%;
     align-items: center;
     flex-direction: column;
-
     }
 
     .location h6 {
@@ -383,16 +343,13 @@ nav a {
       .site-main {
         width: 100%;
         height: auto;
-
         display: flex;
         justify-content: flex-start;
-
       }
 
       .arrival {
         display: flex;
         justify-content: flex-start;
-
         flex-direction: column;
         height: auto;
         width: 100%;
@@ -426,7 +383,6 @@ nav a {
 
       .product-img {
         width: 100%;
-
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -496,7 +452,6 @@ nav a {
             text-align: left;
             font-size: 1rem;
             padding: 1rem 0;
-
             padding-left: 2rem;
             background-color: black;
           }
@@ -539,5 +494,4 @@ nav a {
             font-size: 1rem;
             text-align: center;
           }
-
         }
